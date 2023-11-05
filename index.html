@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Form📄</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="form">
+            <form>
+                <div class="step-1">
+                    <h2 class="formTitle">Register</h2>
+                    <label for="name" class="formLabel">Name</label>
+                    <input type="text" id="name" name="name" class="formInput nameInput" placeholder="enter your name" autocomplete="off">
+                    <label for="email" class="formLabel">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" class="formInput emailInput" autocomplete="off" required>
+                    <button class="buttonOne stepOneButton">Continue</button>
+                </div>
+                <div class="step-2 stepOff">
+                    <h2 class="formTitle">Which topics you are interested in?</h2>
+                    <div class="software option">Software Development</div>
+                    <div class="user option">User Experience</div>
+                    <div class="graphicDesign option">Graphic Design</div>
+                    <button class="buttonOne stepTwoButton">Continue</button>
+                </div>
+                <div class="step-3 stepOff">
+                    <h2 class="formTitle">Summary</h2>
+                    <p>Name: <span class="nameObtained data">Emily Johnson</span></p>
+                    <p>Email: <span class="emailObtained data">emily@emilyjohnsonstl.com</span></p>
+                    <p style="margin-top: 15px;">Topics:</p>
+                    <span class="topics">
+                        <ul>
+                            <li class="topicOne stepOff">Software Development</li>
+                            <li class="topicTwo stepOff">User Experience</li>
+                            <li class="topicThree stepOff">Graphic Design</li>
+                        </ul>
+                    </span>
+                    <button class="buttonOne stepThreeButton">Confirm</button>
+                </div>
+            </form>
+        </section>
+        <div class="step">
+            <p class="step-text">Step 1 of 3</p>
+            <ul class="step-progress">
+                <li class="stepProgressOne blueStart"></li>
+                <li class="stepProgressTwo"></li>
+                <li class="stepProgressThree"></li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

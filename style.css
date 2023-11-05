@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #121826;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('blur-radial.svg');
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+form {
+    width: 100%;
+}
+.form {
+    background-color: #212936;
+    max-width: 500px;
+    width: 80%;
+    border: 1px solid #4D5562;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+.formTitle {
+    font-family: 'Inter', sans-serif;
+    color: #E5E7EB;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.formLabel {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #A1A1A9;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+}
+.formInput {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #212936;
+    color: white;
+    border: 2px solid #4D5562;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    border-radius: 15px;
+    width: 100%;
+    font-weight: 500;
+}
+.formInput::placeholder {
+    color: #4D5562;
+}
+.step-1 {
+    display: flex;
+    flex-direction: column;
+}
+.step-2 {
+    display: flex;
+    flex-direction: column;
+}
+.step-3 {
+    display: flex;
+    flex-direction: column;
+}
+.buttonOne {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    display: inline-block;
+    margin: 10px auto 0px auto;
+    background: linear-gradient(180deg, rgba(132,94,238,1) 0%, rgba(101,44,209,1) 100%);
+    border-radius: 30px;
+    border: none;
+}
+.buttonOne:hover {
+    cursor: pointer;
+}
+.step .step-text {
+    font-family: 'Inter', sans-serif;
+    color: #4D5562;
+    font-size: 1rem;
+    margin-right: 20px;
+}
+.step {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.step-progress {
+    display: flex;
+    color: #4D5562;
+}
+.step-progress li {
+    margin-left: 25px;
+    font-size: 30px;
+}
+.blueStart {
+    color: #652CD1;
+}
+.option {
+    background-color: #394150;
+    color: #A1A1A9;
+    padding: 15px;
+    margin: 8px 0px;
+    border: 1px solid #4D5562;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+.blueOption {
+    background-color: #652CD1;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.stepTwoButton {
+    margin-top: 30px;
+}
+.stepThreeButton {
+    margin-top: 30px;
+}
+.option:hover {
+    cursor: pointer;
+}
+.step-3 p {
+    font-family: 'Inter', sans-serif;
+    color: #A1A1A9;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.step-3 span {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.step-3 li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.stepOff {
+    display: none;
+}
